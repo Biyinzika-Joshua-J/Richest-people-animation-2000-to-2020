@@ -1,0 +1,66 @@
+h2{
+    text-align: center;
+}
+
+#play{
+    background-color: blue;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.person{
+    display: flex;
+    transition: .5s all;
+}
+
+.person .person_worth{
+    height: 40px;
+    background-color: blue;
+    margin: 5px 0;
+    position: relative;
+    transition: .5s all;
+}
+
+.person_worth .name{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.person_worth .money{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    right: 10%;
+    top:10%
+}
+
+.avatar{
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+.flag{
+    width: 50px;
+    object-fit: contain;
+    margin: 0 5px;
+}
+
+.position{
+    padding: 10px 10px;
+    margin: 3px 0;
+    transform: translateX(-50%);
+    width: 1%;
+    border: blue solid 2px;
+    border-radius: 50%;
+    height: 1%;
+}
